@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+
+.footer-container div {
+    width: 22%;
+    margin: 10px;
+}
+
+.footer-container h3 {
+    color: #ff5733;
+    margin-bottom: 15px;
+}
+
+.footer-container a {
+    color: #333;
+    text-decoration: none;
+}
+
+.footer-container a:hover {
+    color: #ff7733;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    border-top: 1px solid #444;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.footer-bottom p {
+    margin: 0;
+    color: #bbb;
+}
+
+.footer-links ul{
+    list-style: none;
+}
